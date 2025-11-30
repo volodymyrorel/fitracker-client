@@ -8,4 +8,6 @@ interface Navigator {
     fun detach()
     fun popBackStack()
     fun setBackResult(key: String, value: Any)
+    fun navigateToSignInScreen()
+    fun navigateToSignUpScreen()
 }
